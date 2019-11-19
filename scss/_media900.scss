@@ -1,0 +1,91 @@
+@media (max-width: 900px){
+  .header__nav{
+    display: none;
+  }
+  .hero{
+    .hero-head{
+      h1{
+          @include titels(72px,700,21px,#fff)
+      }
+      p{
+        width: 500px;
+        font-size: 25px;
+        text-align: center;
+      }
+      span{
+        text-align: center;
+        font-size: 15px;
+        margin-top: 20px;
+      }
+      .hero__button{
+        width: 320px;
+      }
+    }
+    .hero_footer{
+       h2{
+         @include titels(38px,700,1.4,#635c73)
+         width: 500px;
+         text-align: center;
+         margin-bottom: 25px;
+         margin-top: 20px;
+       }
+       p{
+         width: 500px;
+         font-size: 17px;
+         line-height: 22px;
+         margin-top: -5px;
+       }
+       img{
+         margin-top: 80px;
+         width: 320px;
+       }
+    }
+  }
+  .features{
+    height: 100%;
+    .features__wrap{
+       display: flex;
+       flex-direction: column;
+    }
+    .features__wrap__block{
+      display: flex;
+      width: 100%;
+      h2{
+        @include titels(40px,700,21px,$FontsandBtns)
+        display: block;
+      }
+      .features__block{
+        width: 300px;
+        margin-top: 80px;
+        p{
+          width: 200px;
+        }
+        img{
+          display: flex;
+          width: 60px;
+          height: 70px;
+        }
+      }
+    }
+    .features__second__block{
+      width: 100%;
+      h2{
+        display: none;
+      }
+    }
+  }
+  .contacts{
+    .contacts__wrap{
+      .line{
+      width:  500px;
+      }
+      .contacts__user__undertext{
+        width: 500px;
+      }
+      .contacts__media{
+        display: flex;
+        flex-direction: column;
+      }
+    }
+  }
+}
