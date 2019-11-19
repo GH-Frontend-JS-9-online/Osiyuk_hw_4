@@ -96,4 +96,23 @@
       }
     }
   }
+  .testimonials{
+    height: 1500px;
+    .testimonials__wrap{
+      h2{
+        @include titels(35px,700,40px, #ffffff)
+        text-align: center;
+      }
+        .testimonials__block__wrap{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          .testimonials__block{
+             p{
+               width: 300px;
+             }
+          }
+        }
+      }
+  }
 }
