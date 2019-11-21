@@ -115,4 +115,85 @@
         }
       }
   }
+  .pricing{
+    height: 2300px;
+    .pricing__wrap{
+      h2{
+         @include titels(40px,700,40px, #ffffff)
+         text-align: center;
+      }
+      .pricing__block__wrap{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        .pricing__block{
+          margin-bottom: 40px;
+          margin-left: 0;
+          &:hover{
+            transform: scale(1.1);
+            background: rgba(57, 45, 61, 0.3);
+          }
+
+        }
+      }
+      .prcing__paragraph{
+        @include titels(12px,400,21px,#a291a5)
+        width: 300px;
+      }
+    }
+  }
+  .subscription{
+    .subscription__wrap{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      h2{
+        display: none;
+      }
+      h3{
+        display: block;
+      }
+      .subscription__form{
+        display: flex;
+        input{
+          width: 200px;
+        }
+        button{
+          width: 100px;
+        }
+      }
+    }
+  }
+  .links{
+    height: 1650px;
+    .links__wrap{
+      .links__wrap__block{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .links__block{
+          button{
+            margin-bottom: 20px;
+            margin-top: 30px;
+          }
+        }
+      }
+    }
+  }
+  footer{
+    .footer__wrap{
+      .footer__wrap__block{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        .block{
+          margin-top: 35px;
+        }
+        .footer__contacts{
+          text-align: center;
+        }
+      }
+    }
+  }
 }

@@ -353,9 +353,9 @@ header {
 
 .testimonials {
   height: 100vh;
-  background-image: url(../img/Layer_1.png);
   background-size: cover;
   background-color: #4b3b4e;
+  background-image: url(../img/Layer_1.png);
   display: flex;
   justify-content: center; }
   .testimonials .testimonials__wrap {
@@ -392,6 +392,246 @@ header {
         .testimonials .testimonials__wrap .testimonials__block__wrap .testimonials__block img {
           align-self: center;
           margin-bottom: 10%; }
+
+.pricing {
+  height: 100vh;
+  background-size: cover;
+  background-color: #4b3b4e;
+  background-image: url(../img/Layer_2.png);
+  display: flex;
+  justify-content: center; }
+  .pricing .pricing__wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around; }
+    .pricing .pricing__wrap h2 {
+      color: #ffffff;
+      font-family: sans-serif;
+      font-size: 48px;
+      font-weight: 700;
+      line-height: 21px; }
+    .pricing .pricing__wrap .pricing__block__wrap {
+      display: flex;
+      flex-direction: row;
+      justify-content: center; }
+      .pricing .pricing__wrap .pricing__block__wrap .pricing__block {
+        margin-left: 30px;
+        width: 257px;
+        height: 457px;
+        background-color: rgba(255, 255, 255, 0.11); }
+        .pricing .pricing__wrap .pricing__block__wrap .pricing__block:hover {
+          transform: scale(1.15);
+          background: rgba(57, 45, 61, 0.3); }
+        .pricing .pricing__wrap .pricing__block__wrap .pricing__block .pricing__block__head {
+          background-color: rgba(255, 255, 255, 0.06);
+          height: 97px;
+          display: flex;
+          justify-content: center;
+          align-items: center; }
+          .pricing .pricing__wrap .pricing__block__wrap .pricing__block .pricing__block__head h3 {
+            color: #ffffff;
+            font-family: sans-serif;
+            font-size: 24px;
+            font-weight: 400;
+            line-height: 21px; }
+        .pricing .pricing__wrap .pricing__block__wrap .pricing__block .pricing__block__main {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column; }
+          .pricing .pricing__wrap .pricing__block__wrap .pricing__block .pricing__block__main .money {
+            color: #ffffff;
+            font-family: sans-serif;
+            font-size: 60px;
+            font-weight: 700;
+            line-height: 21px;
+            margin-top: 30px; }
+          .pricing .pricing__wrap .pricing__block__wrap .pricing__block .pricing__block__main .month {
+            color: #ffffff;
+            font-family: sans-serif;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 90px;
+            opacity: 0.3;
+            text-transform: uppercase; }
+          .pricing .pricing__wrap .pricing__block__wrap .pricing__block .pricing__block__main p {
+            color: #fff;
+            font-family: sans-serif;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 10; }
+          .pricing .pricing__wrap .pricing__block__wrap .pricing__block .pricing__block__main button {
+            width: 160px;
+            height: 42px;
+            background-color: rgba(255, 255, 255, 0.15);
+            text-decoration: none;
+            border-radius: 10px;
+            display: flex;
+            justify-content: center;
+            align-self: center;
+            color: #fff;
+            text-transform: uppercase;
+            border: none; }
+  .pricing .prcing__paragraph {
+    color: #a291a5;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    width: 862px;
+    opacity: 0.8;
+    text-align: center; }
+
+.subscription {
+  height: 134px;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center; }
+  .subscription .subscription__wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    .subscription .subscription__wrap h2 {
+      color: #635c73;
+      font-family: sans-serif;
+      font-size: 30px;
+      font-weight: 700;
+      line-height: 60px; }
+    .subscription .subscription__wrap h3 {
+      display: none;
+      color: #323232;
+      font-family: sans-serif;
+      font-size: 25px;
+      font-weight: 700;
+      line-height: 50px; }
+    .subscription .subscription__wrap .subscription__form input {
+      width: 335px;
+      height: 42px;
+      background-color: #ffffff;
+      border-radius: 50px;
+      border: none; }
+    .subscription .subscription__wrap .subscription__form button {
+      width: 140px;
+      height: 42px;
+      background-color: #8d81ac;
+      border-radius: 50px;
+      width: 140px;
+      border: none;
+      color: #fff;
+      font-family: sans-serif;
+      font-size: 13px;
+      font-weight: 400;
+      line-height: 17px;
+      text-transform: uppercase; }
+
+.links {
+  display: flex;
+  justify-content: center;
+  height: 730px; }
+  .links .links__wrap .links__wrap__block {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 10%; }
+  .links .links__wrap .links__block {
+    width: 330px;
+    display: flex;
+    flex-direction: column; }
+    .links .links__wrap .links__block h3 {
+      color: #d3d1da;
+      font-family: sans-serif;
+      font-size: 28px;
+      font-weight: 700;
+      line-height: 32px;
+      padding-bottom: 54px; }
+    .links .links__wrap .links__block p {
+      color: #848e97;
+      font-family: sans-serif;
+      font-size: 13px;
+      font-weight: 400;
+      line-height: 21px;
+      margin-top: 20px; }
+    .links .links__wrap .links__block button {
+      width: 158px;
+      height: 35px;
+      background-color: #f4f4f4;
+      border: none;
+      color: #8d81ac;
+      font-family: sans-serif;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 26px;
+      margin-top: 50px; }
+    .links .links__wrap .links__block h4 {
+      color: #8d81ac;
+      font-family: sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 26px; }
+  .links .links__wrap .links__block-first h4 {
+    color: #323232;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px; }
+  .links .links__wrap .links__block-third p {
+    margin-top: 14px; }
+  .links .links__wrap .links__block-third h4 {
+    margin-top: 3px; }
+  .links .links__wrap .links__block-third button {
+    margin-top: 80px; }
+  .links .links__wrap .links__block-second button {
+    margin-top: 70px; }
+
+footer {
+  height: 329px;
+  display: flex;
+  justify-content: center; }
+  footer .footer__wrap .footer__wrap__block {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 10%; }
+    footer .footer__wrap .footer__wrap__block .footer__logo p {
+      width: 253px; }
+    footer .footer__wrap .footer__wrap__block .footer__contacts-number {
+      padding-bottom: 20px; }
+    footer .footer__wrap .footer__wrap__block .footer__info p {
+      width: 300px; }
+  footer .footer__wrap p {
+    color: #848e97;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px; }
+  footer .footer__wrap h4 {
+    color: #323232;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px; }
+  footer .footer__wrap a {
+    color: #8d81ac;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 23px;
+    text-decoration: none;
+    letter-spacing: 0.3px; }
+  footer .footer__wrap h3 {
+    color: #3f3f3f;
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0.6px; }
+  footer .footer__wrap span {
+    color: #848e97;
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 28px; }
 
 @media (max-width: 900px) {
   .header__nav {
@@ -479,7 +719,62 @@ header {
       flex-direction: column;
       align-items: center; }
       .testimonials .testimonials__wrap .testimonials__block__wrap .testimonials__block p {
-        width: 350px; } }
+        width: 350px; }
+  .pricing {
+    height: 2200px; }
+    .pricing .pricing__wrap h2 {
+      color: #ffffff;
+      font-family: sans-serif;
+      font-size: 45px;
+      font-weight: 700;
+      line-height: 40px;
+      text-align: center; }
+    .pricing .pricing__wrap .pricing__block__wrap {
+      display: flex;
+      flex-direction: column;
+      align-content: center; }
+      .pricing .pricing__wrap .pricing__block__wrap .pricing__block {
+        margin-bottom: 40px;
+        margin-left: 0; }
+    .pricing .pricing__wrap .prcing__paragraph {
+      color: #a291a5;
+      font-family: sans-serif;
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 21px;
+      width: 500px; }
+  .subscription .subscription__wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+    .subscription .subscription__wrap h2 {
+      display: none; }
+    .subscription .subscription__wrap h3 {
+      display: block; }
+    .subscription .subscription__wrap .subscription__form {
+      display: flex; }
+      .subscription .subscription__wrap .subscription__form input {
+        width: 300px; }
+      .subscription .subscription__wrap .subscription__form button {
+        width: 120px; }
+  .links {
+    height: 1650px; }
+    .links .links__wrap .links__wrap__block {
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+      .links .links__wrap .links__wrap__block .links__block button {
+        margin-bottom: 20px;
+        margin-top: 30px; }
+  footer .footer__wrap .footer__wrap__block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between; }
+    footer .footer__wrap .footer__wrap__block .block {
+      margin-top: 35px; }
+    footer .footer__wrap .footer__wrap__block .footer__contacts {
+      text-align: center; } }
 
 @media (max-width: 481px) {
   .nav__wrap .button {
@@ -571,6 +866,64 @@ header {
       flex-direction: column;
       align-items: center; }
       .testimonials .testimonials__wrap .testimonials__block__wrap .testimonials__block p {
-        width: 300px; } }
+        width: 300px; }
+  .pricing {
+    height: 2300px; }
+    .pricing .pricing__wrap h2 {
+      color: #ffffff;
+      font-family: sans-serif;
+      font-size: 40px;
+      font-weight: 700;
+      line-height: 40px;
+      text-align: center; }
+    .pricing .pricing__wrap .pricing__block__wrap {
+      display: flex;
+      flex-direction: column;
+      align-content: center; }
+      .pricing .pricing__wrap .pricing__block__wrap .pricing__block {
+        margin-bottom: 40px;
+        margin-left: 0; }
+        .pricing .pricing__wrap .pricing__block__wrap .pricing__block:hover {
+          transform: scale(1.1);
+          background: rgba(57, 45, 61, 0.3); }
+    .pricing .pricing__wrap .prcing__paragraph {
+      color: #a291a5;
+      font-family: sans-serif;
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 21px;
+      width: 300px; }
+  .subscription .subscription__wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+    .subscription .subscription__wrap h2 {
+      display: none; }
+    .subscription .subscription__wrap h3 {
+      display: block; }
+    .subscription .subscription__wrap .subscription__form {
+      display: flex; }
+      .subscription .subscription__wrap .subscription__form input {
+        width: 200px; }
+      .subscription .subscription__wrap .subscription__form button {
+        width: 100px; }
+  .links {
+    height: 1650px; }
+    .links .links__wrap .links__wrap__block {
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+      .links .links__wrap .links__wrap__block .links__block button {
+        margin-bottom: 20px;
+        margin-top: 30px; }
+  footer .footer__wrap .footer__wrap__block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between; }
+    footer .footer__wrap .footer__wrap__block .block {
+      margin-top: 35px; }
+    footer .footer__wrap .footer__wrap__block .footer__contacts {
+      text-align: center; } }
 
 /*# sourceMappingURL=main.css.map */
