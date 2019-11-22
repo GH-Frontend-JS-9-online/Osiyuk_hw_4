@@ -1,0 +1,80 @@
+.hero{
+  .hero-head{
+    height: 100vh;
+    background-image: url(../img/img.png);
+    background-position: center;
+  	background-size: cover;
+    @include wrap-center()
+    .hero-head_wrap{
+      @include flex-center(column,space-between)
+    }
+    .hero__title{
+      @include flex-top-block(7rem);
+    }
+    h1{
+      @include titels(82px,700,21px,#fff)
+    }
+    p{
+      width: 693px;
+      height: 28px;
+      color: #8d81ac;
+      font-family: $FontFamaly;
+      font-size: 25px;
+      font-weight: 400;
+      line-height: 20.45px;
+      margin-top: 45px;
+      text-align: center;
+    }
+    span{
+      width: 261px;
+      height: 13px;
+      color: #848e97;
+      font-family: $FontFamaly;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 20.45px;
+      text-transform: uppercase;
+      margin-top: 15px;
+    }
+    .hero__button{
+      width: 390px;
+      height: 62px;
+      margin-bottom: -31px;
+      font-weight: 700;
+      font-size: 20px;
+    }
+  }
+  .hero_footer{
+    @include wrap-center()
+    .hero_footer__wrap{
+    @include flex-top-block(3rem)
+    }
+    span{
+      color: #848e97;
+      font-family: $FontFamaly;
+      font-size: 14px;
+      font-weight: 700;
+      line-height: 15px;
+    }
+    h2{
+      @include titels(54px,700,3,#635c73)
+      text-transform: uppercase;
+    }
+    p{
+      width: 878px;
+      height: 51px;
+      opacity: 0.8;
+      color: #323232;
+      font-family: "Source Sans Pro";
+      font-size: 21px;
+      font-weight: 400;
+      line-height: 32px;
+      text-align: center;
+      margin-top: -25px;
+    }
+    img{
+      margin-top: 45px;
+      margin-bottom: 70px;
+    }
+  }
+}

@@ -1,0 +1,25 @@
+header{
+  @include wrap-center()
+  height: 104px;
+  background-color: #fff;
+  .header_wrap{
+    @include flex-center(row,space-between)
+     }
+    .nav__wrap{
+      display: flex;
+      align-items:  center;
+    }
+    .header__nav{
+      a{
+        text-decoration: none;
+        width: 498px;
+        height: 16px;
+        color: #635c73;
+        font-family: $FontFamaly;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 15px;
+        margin-right: 30px;
+      }
+  }
+}

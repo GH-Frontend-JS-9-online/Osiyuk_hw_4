@@ -1,4 +1,7 @@
 @media (max-width: 900px){
+  html {
+		overflow-x: hidden;
+	}
   .header__nav{
     display: none;
   }
@@ -91,6 +94,9 @@
   .testimonials{
     height: 1500px;
     .testimonials__wrap{
+      .line{
+        width: 300px;
+      }
       h2{
         @include titels(40px,700,40px, #ffffff)
         text-align: center;

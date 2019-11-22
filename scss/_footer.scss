@@ -1,0 +1,43 @@
+footer{
+  height: 329px;
+  @include wrap-center()
+  .footer__wrap{
+    .footer__wrap__block{
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      margin-top: 10%;
+      .footer__logo{
+        p{
+        width: 253px;
+        }
+      }
+      .footer__contacts-number{
+        padding-bottom: 20px;
+      }
+      .footer__info{
+        p{
+          width: 300px;
+        }
+      }
+    }
+    p{
+      @include titels(14px,400,21px,#848e97)
+    }
+    h4{
+      @include titels(16px,700,26px,#323232)
+    }
+    a{
+      @include titels(15px,400,23px,#8d81ac)
+      text-decoration: none;
+      letter-spacing: 0.3px;
+    }
+    h3{
+        @include titels(30px,700,28px,#3f3f3f)
+        letter-spacing: 0.6px;
+    }
+    span{
+      @include titels(12px,400,28px,#848e97)
+    }
+  }
+}

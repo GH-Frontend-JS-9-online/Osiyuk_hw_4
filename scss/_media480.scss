@@ -1,4 +1,7 @@
 @media (max-width: 481px){
+  html {
+		overflow-x: hidden;
+	}
   .nav__wrap{
      .button{
        margin-right: 40%;
@@ -99,6 +102,9 @@
   .testimonials{
     height: 1500px;
     .testimonials__wrap{
+      .line{
+      width:  300px;
+      }
       h2{
         @include titels(35px,700,40px, #ffffff)
         text-align: center;

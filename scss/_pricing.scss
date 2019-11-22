@@ -1,0 +1,75 @@
+.pricing{
+  @include background-prop()
+  background-image: url(../img/Layer_2.png);
+  @include wrap-center()
+  .pricing__wrap{
+   @include wrap-prop()
+   h2{
+      @include titels(48px,700,21px, #ffffff)
+   }
+   .pricing__block__wrap{
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     .pricing__block{
+       margin-left: 30px;
+       width: 257px;
+       height: 457px;
+       background-color: rgba(255, 255, 255, 0.11);
+       &:hover{
+         transform: scale(1.15);
+         background: rgba(57, 45, 61, 0.3);
+       }
+
+       .pricing__block__head{
+         background-color: rgba(255, 255, 255, 0.06);
+         height: 97px;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         h3{
+           @include titels(24px,400,21px, #ffffff)
+           text-transform: uppercase;
+         }
+       }
+       .pricing__block__main{
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         flex-direction: column;
+         .money{
+           @include titels(60px,700,21px, #ffffff)
+           margin-top: 30px;
+         }
+         .month{
+           @include titels(14px,400,90px, #ffffff)
+           opacity: 0.3;
+           text-transform: uppercase;
+         }
+         p{
+           @include titels(16px,400,10,#fff)
+         }
+         button {
+           width: 160px;
+           height: 42px;
+           background-color: rgba(255, 255, 255, 0.15);
+           text-decoration: none;
+           border-radius: 10px;
+           display: flex;
+           justify-content: center;
+           align-self: center;
+           color: #fff;
+           text-transform: uppercase;
+           border:none;
+         }
+       }
+     }
+   }
+  }
+  .prcing__paragraph{
+    @include titels(14px,400,21px,#a291a5)
+    width: 862px;
+    opacity: 0.8;
+    text-align: center;
+  }
+}

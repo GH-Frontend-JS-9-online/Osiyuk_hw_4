@@ -1,0 +1,36 @@
+.subscription{
+  height: 134px;
+  background-color: #f4f4f4;
+  @include wrap-center()
+  .subscription__wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    h2{
+      @include titels(30px,700,60px,#635c73)
+    }
+    h3{
+      display: none;
+      @include titels(25px,700,50px,#323232)
+    }
+    .subscription__form{
+      input{
+        width: 335px;
+        height: 42px;
+        background-color: #ffffff;
+        border-radius: 50px;
+        border: none;
+      }
+      button{
+        width: 140px;
+        height: 42px;
+        background-color: #8d81ac;
+        border-radius: 50px;
+        width: 140px;
+        border:none;
+        @include titels(13px,400,17px,#fff)
+        text-transform: uppercase;
+      }
+    }
+  }
+}
