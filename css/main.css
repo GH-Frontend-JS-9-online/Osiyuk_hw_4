@@ -714,8 +714,6 @@ footer {
     flex-direction: column; }
   .testimonials {
     height: 1500px; }
-    .testimonials .testimonials__wrap .line {
-      width: 300px; }
     .testimonials .testimonials__wrap h2 {
       color: #ffffff;
       font-family: sans-serif;
@@ -865,8 +863,6 @@ footer {
     flex-direction: column; }
   .testimonials {
     height: 1500px; }
-    .testimonials .testimonials__wrap .line {
-      width: 300px; }
     .testimonials .testimonials__wrap h2 {
       color: #ffffff;
       font-family: sans-serif;

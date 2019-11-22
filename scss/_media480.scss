@@ -102,9 +102,6 @@
   .testimonials{
     height: 1500px;
     .testimonials__wrap{
-      .line{
-      width:  300px;
-      }
       h2{
         @include titels(35px,700,40px, #ffffff)
         text-align: center;
