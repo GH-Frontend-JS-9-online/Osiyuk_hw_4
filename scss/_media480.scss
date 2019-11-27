@@ -1,8 +1,8 @@
 @media (max-width: 481px){
   html {
-		overflow-x: hidden;
+    overflow-x: hidden;
 	}
-  .nav__wrap{
+  .header__nav_wrap{
      .button{
        margin-right: 40%;
      }
@@ -14,7 +14,7 @@
     display: flex;
   }
   .hero{
-    .hero-head{
+    .hero__head{
       h1{
           @include titels(60px,700,21px,#fff)
       }
@@ -28,11 +28,11 @@
         font-size: 14px;
         margin-top: 20px;
       }
-      .hero__button{
+      .hero_button{
         width: 300px;
       }
     }
-    .hero_footer{
+    .hero__footer{
        h2{
          @include titels(30px,700,1.4,#635c73)
          width: 300px;
@@ -54,11 +54,11 @@
   }
   .features{
     height: 100%;
-    .features__wrap{
+    .features_wrap{
        display: flex;
        flex-direction: column;
     }
-    .features__wrap__block{
+    .features__block_wrap{
       width: 100%;
       h2{
         @include titels(40px,700,30px,$FontsandBtns)
@@ -78,7 +78,7 @@
         }
       }
     }
-    .features__second__block{
+    .features__block_second{
       width: 100%;
       h2{
         display: none;
@@ -86,14 +86,14 @@
     }
   }
   .contacts{
-    .contacts__wrap{
+    .contacts_wrap{
       .line{
       width:  300px;
       }
-      .contacts__user__undertext{
+      .contacts-user__undertext{
         width: 300px;
       }
-      .contacts__media{
+      .contacts-media{
         display: flex;
         flex-direction: column;
       }
@@ -101,12 +101,12 @@
   }
   .testimonials{
     height: 1500px;
-    .testimonials__wrap{
+    .testimonials_wrap{
       h2{
         @include titels(35px,700,40px, #ffffff)
         text-align: center;
       }
-        .testimonials__block__wrap{
+        .testimonials__block_wrap{
           display: flex;
           flex-direction: column;
           align-items: center;
@@ -120,16 +120,16 @@
   }
   .pricing{
     height: 2300px;
-    .pricing__wrap{
+    .pricing_wrap{
       h2{
          @include titels(40px,700,40px, #ffffff)
          text-align: center;
       }
-      .pricing__block__wrap{
+      .pricing-block_wrap{
         display: flex;
         flex-direction: column;
         align-content: center;
-        .pricing__block{
+        .pricing-block{
           margin-bottom: 40px;
           margin-left: 0;
           &:hover{
@@ -146,7 +146,7 @@
     }
   }
   .subscription{
-    .subscription__wrap{
+    .subscription_wrap{
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -169,12 +169,12 @@
   }
   .links{
     height: 1650px;
-    .links__wrap{
-      .links__wrap__block{
+    .links_wrap{
+      .links-block__wrap{
         display: flex;
         flex-direction: column;
         align-items: center;
-        .links__block{
+        .links-block{
           button{
             margin-bottom: 20px;
             margin-top: 30px;
@@ -184,8 +184,8 @@
     }
   }
   footer{
-    .footer__wrap{
-      .footer__wrap__block{
+    .footer_wrap{
+      .footer-block_wrap{
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -193,7 +193,7 @@
         .block{
           margin-top: 35px;
         }
-        .footer__contacts{
+        .footer-block__contacts{
           text-align: center;
         }
       }

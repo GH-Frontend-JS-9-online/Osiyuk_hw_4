@@ -2,7 +2,7 @@
   @include background-prop()
   background-image: url(../img/Layer_1.png);
   @include wrap-center()
-  .testimonials__wrap{
+  .testimonials_wrap{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -11,7 +11,7 @@
        @include titels(48px,700,21px, #ffffff)
        margin-top: 80px;
      }
-     .testimonials__block__wrap{
+     .testimonials__block_wrap{
        display: flex;
        flex-direction: row;
        flex-wrap: wrap;

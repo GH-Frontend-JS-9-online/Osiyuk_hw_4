@@ -1,15 +1,15 @@
 .contacts{
   display: flex;
   justify-content: center;
-  .contacts__wrap{
+  .contacts_wrap{
     display: flex;
     flex-direction: column;
     align-items: center;
     align-content: center;
-    .contacts__user{
+    .contacts-user{
       display: flex;
       margin-top: 80px;
-      .contacts__user__text{
+      .contacts-user__text{
         display: flex;
         justify-content: center;
         flex-direction: column;
@@ -22,7 +22,7 @@
         }
       }
     }
-    .contacts__user__undertext{
+    .contacts-user__undertext{
       width: 720px;
       text-align: center;
       margin-top: 40px;
@@ -37,7 +37,7 @@
       @include span-2(16px,32px)
       margin-top: 20px;
     }
-    .contacts__media{
+    .contacts-media{
       display: flex;
       .btn__media{
         display: flex;

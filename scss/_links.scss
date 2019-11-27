@@ -1,14 +1,14 @@
 .links{
   @include wrap-center();
   height: 730px;
-  .links__wrap{
-    .links__wrap__block{
+  .links_wrap{
+    .links-block__wrap{
       display: flex;
       justify-content: space-between;
       align-items: flex-start;
       margin-top: 10%;
     }
-    .links__block{
+    .links-block{
      width: 330px;
      display: flex;
      flex-direction: column;
@@ -32,12 +32,12 @@
        @include titels(16px,400,26px,#8d81ac)
      }
     }
-    .links__block-first{
+    .links-block_first{
       h4{
         @include titels(16px,400,26px,#323232)
       }
     }
-    .links__block-third{
+    .links-block_third{
       p{
         margin-top: 14px;
       }
@@ -48,7 +48,7 @@
         margin-top: 80px;
       }
       }
-      .links__block-second{
+      .links-block_second{
         button{
           margin-top: 70px;
         }

@@ -2,12 +2,12 @@
   height: 711px;
   background-color: #f4f4f4;
     @include wrap-center()
-  .features__wrap{
+  .features_wrap{
     display:flex;
     margin-top: 3rem;
     width: 100%;
   }
-  .features__wrap__block{
+  .features__block_wrap{
     display: flex;
     flex-direction: column;
     width: 45%;
@@ -46,7 +46,7 @@
          line-height: 21px;
        }
   }
-  .features__second__block{
+  .features__block_second{
     width: 55%;
     h2{
       @include titels (48px,700,21px,$FontsandBtns)

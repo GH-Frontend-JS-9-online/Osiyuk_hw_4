@@ -28,7 +28,7 @@ header {
     flex-direction: row;
     justify-content: space-between;
     align-items: center; }
-  header .nav__wrap {
+  header .header__nav_wrap {
     display: flex;
     align-items: center; }
   header .header__nav a {
@@ -76,7 +76,7 @@ header {
     visibility: hidden;
     top: 0;
     left: -100%;
-    width: 300px;
+    width: 70%;
     height: 100%;
     margin: 0;
     padding: 80px 0;
@@ -115,30 +115,30 @@ header {
   .hamburger-menu .menu__item {
     transition-duration: .25s; }
 
-.hero .hero-head {
+.hero .hero__head {
   height: 100vh;
   background-image: url(../img/img.png);
   background-position: center;
   background-size: cover;
   display: flex;
   justify-content: center; }
-  .hero .hero-head .hero-head_wrap {
+  .hero .hero__head .hero__head_wrap {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center; }
-  .hero .hero-head .hero__title {
+  .hero .hero__head .hero__title {
     display: flex;
     align-items: center;
     flex-direction: column;
     margin-top: 7rem; }
-  .hero .hero-head h1 {
+  .hero .hero__head h1 {
     color: #fff;
     font-family: sans-serif;
     font-size: 82px;
     font-weight: 700;
     line-height: 21px; }
-  .hero .hero-head p {
+  .hero .hero__head p {
     width: 693px;
     height: 28px;
     color: #8d81ac;
@@ -148,7 +148,7 @@ header {
     line-height: 20.45px;
     margin-top: 45px;
     text-align: center; }
-  .hero .hero-head span {
+  .hero .hero__head span {
     width: 261px;
     height: 13px;
     color: #848e97;
@@ -158,35 +158,35 @@ header {
     line-height: 20.45px;
     text-transform: uppercase;
     margin-top: 15px; }
-  .hero .hero-head .hero__button {
+  .hero .hero__head .hero_button {
     width: 390px;
     height: 62px;
     margin-bottom: -31px;
     font-weight: 700;
     font-size: 20px; }
 
-.hero .hero_footer {
+.hero .hero__footer {
   display: flex;
   justify-content: center; }
-  .hero .hero_footer .hero_footer__wrap {
+  .hero .hero__footer .hero__footer_wrap {
     display: flex;
     align-items: center;
     flex-direction: column;
     margin-top: 3rem; }
-  .hero .hero_footer span {
+  .hero .hero__footer span {
     color: #848e97;
     font-family: sans-serif;
     font-size: 14px;
     font-weight: 700;
     line-height: 15px; }
-  .hero .hero_footer h2 {
+  .hero .hero__footer h2 {
     color: #635c73;
     font-family: sans-serif;
     font-size: 54px;
     font-weight: 700;
     line-height: 3;
     text-transform: uppercase; }
-  .hero .hero_footer p {
+  .hero .hero__footer p {
     width: 878px;
     height: 51px;
     opacity: 0.8;
@@ -197,7 +197,7 @@ header {
     line-height: 32px;
     text-align: center;
     margin-top: -25px; }
-  .hero .hero_footer img {
+  .hero .hero__footer img {
     margin-top: 45px;
     margin-bottom: 70px; }
 
@@ -206,16 +206,16 @@ header {
   background-color: #f4f4f4;
   display: flex;
   justify-content: center; }
-  .features .features__wrap {
+  .features .features_wrap {
     display: flex;
     margin-top: 3rem;
     width: 100%; }
-  .features .features__wrap__block {
+  .features .features__block_wrap {
     display: flex;
     flex-direction: column;
     width: 45%;
     align-items: center; }
-    .features .features__wrap__block h2 {
+    .features .features__block_wrap h2 {
       display: none;
       color: #8d81ac;
       font-family: sans-serif;
@@ -247,16 +247,16 @@ header {
       font-size: 16px;
       font-weight: 700;
       line-height: 21px; }
-  .features .features__second__block {
+  .features .features__block_second {
     width: 55%; }
-    .features .features__second__block h2 {
+    .features .features__block_second h2 {
       color: #8d81ac;
       font-family: sans-serif;
       font-size: 48px;
       font-weight: 700;
       line-height: 21px;
       margin-top: 30px; }
-    .features .features__second__block .feautures__img {
+    .features .features__block_second .feautures__img {
       height: 630px;
       width: 100%;
       background-image: url(../img/editor.png);
@@ -266,66 +266,66 @@ header {
 .contacts {
   display: flex;
   justify-content: center; }
-  .contacts .contacts__wrap {
+  .contacts .contacts_wrap {
     display: flex;
     flex-direction: column;
     align-items: center;
     align-content: center; }
-    .contacts .contacts__wrap .contacts__user {
+    .contacts .contacts_wrap .contacts-user {
       display: flex;
       margin-top: 80px; }
-      .contacts .contacts__wrap .contacts__user .contacts__user__text {
+      .contacts .contacts_wrap .contacts-user .contacts-user__text {
         display: flex;
         justify-content: center;
         flex-direction: column;
         margin-left: 23px; }
-        .contacts .contacts__wrap .contacts__user .contacts__user__text h3 {
+        .contacts .contacts_wrap .contacts-user .contacts-user__text h3 {
           color: #635c73;
           font-family: sans-serif;
           font-size: 24px;
           font-weight: 700;
           line-height: 32px; }
-        .contacts .contacts__wrap .contacts__user .contacts__user__text span {
+        .contacts .contacts_wrap .contacts-user .contacts-user__text span {
           color: #8d81ac;
           font-family: sans-serif;
           font-size: 16px;
           font-weight: 400;
           line-height: 32px; }
-    .contacts .contacts__wrap .contacts__user__undertext {
+    .contacts .contacts_wrap .contacts-user__undertext {
       width: 720px;
       text-align: center;
       margin-top: 40px; }
-      .contacts .contacts__wrap .contacts__user__undertext span {
+      .contacts .contacts_wrap .contacts-user__undertext span {
         color: #8d81ac;
         font-family: sans-serif;
         font-size: 16px;
         font-weight: 400;
         line-height: 32px; }
-      .contacts .contacts__wrap .contacts__user__undertext p {
+      .contacts .contacts_wrap .contacts-user__undertext p {
         font-family: sans-serif; }
-    .contacts .contacts__wrap span {
+    .contacts .contacts_wrap span {
       color: #848e97;
       font-family: sans-serif;
       font-size: 16px;
       font-weight: 400;
       line-height: 32px;
       margin-top: 20px; }
-    .contacts .contacts__wrap .contacts__media {
+    .contacts .contacts_wrap .contacts-media {
       display: flex; }
-      .contacts .contacts__wrap .contacts__media .btn__media {
+      .contacts .contacts_wrap .contacts-media .btn__media {
         display: flex;
         flex-direction: column;
         margin: 30px; }
-        .contacts .contacts__wrap .contacts__media .btn__media a {
+        .contacts .contacts_wrap .contacts-media .btn__media a {
           text-decoration: none;
           width: 240px;
           height: 50px;
           text-align: center;
           display: flex;
           align-items: center; }
-          .contacts .contacts__wrap .contacts__media .btn__media a:hover {
+          .contacts .contacts_wrap .contacts-media .btn__media a:hover {
             transform: scale(1.1); }
-        .contacts .contacts__wrap .contacts__media .btn__media span {
+        .contacts .contacts_wrap .contacts-media .btn__media span {
           color: #ffffff;
           font-family: sans-serif;
           font-size: 21px;
@@ -333,20 +333,20 @@ header {
           line-height: 32px;
           margin-left: 20%;
           margin-bottom: 7%; }
-        .contacts .contacts__wrap .contacts__media .btn__media img {
+        .contacts .contacts_wrap .contacts-media .btn__media img {
           margin-left: 5%; }
-        .contacts .contacts__wrap .contacts__media .btn__media .twitter {
+        .contacts .contacts_wrap .contacts-media .btn__media .twitter {
           background-color: #26a6d1;
           border-radius: 2px; }
-        .contacts .contacts__wrap .contacts__media .btn__media .facebook {
+        .contacts .contacts_wrap .contacts-media .btn__media .facebook {
           background-color: #3b5998;
           border-radius: 2px; }
-        .contacts .contacts__wrap .contacts__media .btn__media .github {
+        .contacts .contacts_wrap .contacts-media .btn__media .github {
           background-color: #f3f3f3;
           border-radius: 2px; }
-          .contacts .contacts__wrap .contacts__media .btn__media .github span {
+          .contacts .contacts_wrap .contacts-media .btn__media .github span {
             color: black; }
-        .contacts .contacts__wrap .contacts__media .btn__media label {
+        .contacts .contacts_wrap .contacts-media .btn__media label {
           color: #848e97;
           font-family: sans-serif;
           font-size: 14px;
@@ -362,30 +362,30 @@ header {
   background-image: url(../img/Layer_1.png);
   display: flex;
   justify-content: center; }
-  .testimonials .testimonials__wrap {
+  .testimonials .testimonials_wrap {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around; }
-    .testimonials .testimonials__wrap h2 {
+    .testimonials .testimonials_wrap h2 {
       color: #ffffff;
       font-family: sans-serif;
       font-size: 48px;
       font-weight: 700;
       line-height: 21px;
       margin-top: 80px; }
-    .testimonials .testimonials__wrap .testimonials__block__wrap {
+    .testimonials .testimonials_wrap .testimonials__block_wrap {
       display: flex;
       flex-direction: row;
       flex-wrap: wrap;
       align-items: center;
       justify-content: space-between; }
-      .testimonials .testimonials__wrap .testimonials__block__wrap .testimonials__block {
+      .testimonials .testimonials_wrap .testimonials__block_wrap .testimonials__block {
         display: flex;
         flex-direction: column;
         margin-top: 5%;
         margin-bottom: 10%; }
-        .testimonials .testimonials__wrap .testimonials__block__wrap .testimonials__block p {
+        .testimonials .testimonials_wrap .testimonials__block_wrap .testimonials__block p {
           width: 326px;
           color: #ffffff;
           font-family: "Source Sans Pro - Bold It";
@@ -393,7 +393,7 @@ header {
           font-weight: 700;
           line-height: 24px;
           text-align: center; }
-        .testimonials .testimonials__wrap .testimonials__block__wrap .testimonials__block img {
+        .testimonials .testimonials_wrap .testimonials__block_wrap .testimonials__block img {
           align-self: center;
           margin-bottom: 10%; }
 
@@ -404,55 +404,55 @@ header {
   background-image: url(../img/Layer_2.png);
   display: flex;
   justify-content: center; }
-  .pricing .pricing__wrap {
+  .pricing .pricing_wrap {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around; }
-    .pricing .pricing__wrap h2 {
+    .pricing .pricing_wrap h2 {
       color: #ffffff;
       font-family: sans-serif;
       font-size: 48px;
       font-weight: 700;
       line-height: 21px; }
-    .pricing .pricing__wrap .pricing__block__wrap {
+    .pricing .pricing_wrap .pricing-block_wrap {
       display: flex;
       flex-direction: row;
       justify-content: center; }
-      .pricing .pricing__wrap .pricing__block__wrap .pricing__block {
+      .pricing .pricing_wrap .pricing-block_wrap .pricing-block {
         margin-left: 30px;
         width: 257px;
         height: 457px;
         background-color: rgba(255, 255, 255, 0.11); }
-        .pricing .pricing__wrap .pricing__block__wrap .pricing__block:hover {
+        .pricing .pricing_wrap .pricing-block_wrap .pricing-block:hover {
           transform: scale(1.15);
           background: rgba(57, 45, 61, 0.3); }
-        .pricing .pricing__wrap .pricing__block__wrap .pricing__block .pricing__block__head {
+        .pricing .pricing_wrap .pricing-block_wrap .pricing-block .pricing-block__head {
           background-color: rgba(255, 255, 255, 0.06);
           height: 97px;
           display: flex;
           justify-content: center;
           align-items: center; }
-          .pricing .pricing__wrap .pricing__block__wrap .pricing__block .pricing__block__head h3 {
+          .pricing .pricing_wrap .pricing-block_wrap .pricing-block .pricing-block__head h3 {
             color: #ffffff;
             font-family: sans-serif;
             font-size: 24px;
             font-weight: 400;
             line-height: 21px;
             text-transform: uppercase; }
-        .pricing .pricing__wrap .pricing__block__wrap .pricing__block .pricing__block__main {
+        .pricing .pricing_wrap .pricing-block_wrap .pricing-block .pricing-block__main {
           display: flex;
           justify-content: center;
           align-items: center;
           flex-direction: column; }
-          .pricing .pricing__wrap .pricing__block__wrap .pricing__block .pricing__block__main .money {
+          .pricing .pricing_wrap .pricing-block_wrap .pricing-block .pricing-block__main .money {
             color: #ffffff;
             font-family: sans-serif;
             font-size: 60px;
             font-weight: 700;
             line-height: 21px;
             margin-top: 30px; }
-          .pricing .pricing__wrap .pricing__block__wrap .pricing__block .pricing__block__main .month {
+          .pricing .pricing_wrap .pricing-block_wrap .pricing-block .pricing-block__main .month {
             color: #ffffff;
             font-family: sans-serif;
             font-size: 14px;
@@ -460,13 +460,17 @@ header {
             line-height: 90px;
             opacity: 0.3;
             text-transform: uppercase; }
-          .pricing .pricing__wrap .pricing__block__wrap .pricing__block .pricing__block__main p {
+          .pricing .pricing_wrap .pricing-block_wrap .pricing-block .pricing-block__main p {
             color: #fff;
             font-family: sans-serif;
             font-size: 16px;
             font-weight: 400;
-            line-height: 10; }
-          .pricing .pricing__wrap .pricing__block__wrap .pricing__block .pricing__block__main button {
+            line-height: 1;
+            margin-top: 70px;
+            text-align: center;
+            width: 200px;
+            height: 20px; }
+          .pricing .pricing_wrap .pricing-block_wrap .pricing-block .pricing-block__main button {
             width: 160px;
             height: 42px;
             background-color: rgba(255, 255, 255, 0.15);
@@ -477,7 +481,8 @@ header {
             align-self: center;
             color: #fff;
             text-transform: uppercase;
-            border: none; }
+            border: none;
+            margin-top: 60px; }
   .pricing .prcing__paragraph {
     color: #a291a5;
     font-family: sans-serif;
@@ -493,30 +498,30 @@ header {
   background-color: #f4f4f4;
   display: flex;
   justify-content: center; }
-  .subscription .subscription__wrap {
+  .subscription .subscription_wrap {
     display: flex;
     justify-content: space-between;
     align-items: center; }
-    .subscription .subscription__wrap h2 {
+    .subscription .subscription_wrap h2 {
       color: #635c73;
       font-family: sans-serif;
       font-size: 30px;
       font-weight: 700;
       line-height: 60px; }
-    .subscription .subscription__wrap h3 {
+    .subscription .subscription_wrap h3 {
       display: none;
       color: #323232;
       font-family: sans-serif;
       font-size: 25px;
       font-weight: 700;
       line-height: 50px; }
-    .subscription .subscription__wrap .subscription__form input {
+    .subscription .subscription_wrap .subscription__form input {
       width: 335px;
       height: 42px;
       background-color: #ffffff;
       border-radius: 50px;
       border: none; }
-    .subscription .subscription__wrap .subscription__form button {
+    .subscription .subscription_wrap .subscription__form button {
       width: 140px;
       height: 42px;
       background-color: #8d81ac;
@@ -534,30 +539,30 @@ header {
   display: flex;
   justify-content: center;
   height: 730px; }
-  .links .links__wrap .links__wrap__block {
+  .links .links_wrap .links-block__wrap {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
     margin-top: 10%; }
-  .links .links__wrap .links__block {
+  .links .links_wrap .links-block {
     width: 330px;
     display: flex;
     flex-direction: column; }
-    .links .links__wrap .links__block h3 {
+    .links .links_wrap .links-block h3 {
       color: #d3d1da;
       font-family: sans-serif;
       font-size: 28px;
       font-weight: 700;
       line-height: 32px;
       padding-bottom: 54px; }
-    .links .links__wrap .links__block p {
+    .links .links_wrap .links-block p {
       color: #848e97;
       font-family: sans-serif;
       font-size: 13px;
       font-weight: 400;
       line-height: 21px;
       margin-top: 20px; }
-    .links .links__wrap .links__block button {
+    .links .links_wrap .links-block button {
       width: 158px;
       height: 35px;
       background-color: #f4f4f4;
@@ -568,55 +573,55 @@ header {
       font-weight: 400;
       line-height: 26px;
       margin-top: 50px; }
-    .links .links__wrap .links__block h4 {
+    .links .links_wrap .links-block h4 {
       color: #8d81ac;
       font-family: sans-serif;
       font-size: 16px;
       font-weight: 400;
       line-height: 26px; }
-  .links .links__wrap .links__block-first h4 {
+  .links .links_wrap .links-block_first h4 {
     color: #323232;
     font-family: sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 26px; }
-  .links .links__wrap .links__block-third p {
+  .links .links_wrap .links-block_third p {
     margin-top: 14px; }
-  .links .links__wrap .links__block-third h4 {
+  .links .links_wrap .links-block_third h4 {
     margin-top: 3px; }
-  .links .links__wrap .links__block-third button {
+  .links .links_wrap .links-block_third button {
     margin-top: 80px; }
-  .links .links__wrap .links__block-second button {
+  .links .links_wrap .links-block_second button {
     margin-top: 70px; }
 
 footer {
   height: 329px;
   display: flex;
   justify-content: center; }
-  footer .footer__wrap .footer__wrap__block {
+  footer .footer_wrap .footer-block_wrap {
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
     margin-top: 10%; }
-    footer .footer__wrap .footer__wrap__block .footer__logo p {
+    footer .footer_wrap .footer-block_wrap .footer-block__logo p {
       width: 253px; }
-    footer .footer__wrap .footer__wrap__block .footer__contacts-number {
+    footer .footer_wrap .footer-block_wrap .footer-block_number {
       padding-bottom: 20px; }
-    footer .footer__wrap .footer__wrap__block .footer__info p {
+    footer .footer_wrap .footer-block_wrap .footer-block__info p {
       width: 300px; }
-  footer .footer__wrap p {
+  footer .footer_wrap p {
     color: #848e97;
     font-family: sans-serif;
     font-size: 14px;
     font-weight: 400;
     line-height: 21px; }
-  footer .footer__wrap h4 {
+  footer .footer_wrap h4 {
     color: #323232;
     font-family: sans-serif;
     font-size: 16px;
     font-weight: 700;
     line-height: 26px; }
-  footer .footer__wrap a {
+  footer .footer_wrap a {
     color: #8d81ac;
     font-family: sans-serif;
     font-size: 15px;
@@ -624,14 +629,14 @@ footer {
     line-height: 23px;
     text-decoration: none;
     letter-spacing: 0.3px; }
-  footer .footer__wrap h3 {
+  footer .footer_wrap h3 {
     color: #3f3f3f;
     font-family: sans-serif;
     font-size: 30px;
     font-weight: 700;
     line-height: 28px;
     letter-spacing: 0.6px; }
-  footer .footer__wrap span {
+  footer .footer_wrap span {
     color: #848e97;
     font-family: sans-serif;
     font-size: 12px;
@@ -643,23 +648,23 @@ footer {
     overflow-x: hidden; }
   .header__nav {
     display: none; }
-  .hero .hero-head h1 {
+  .hero .hero__head h1 {
     color: #fff;
     font-family: sans-serif;
     font-size: 72px;
     font-weight: 700;
     line-height: 21px; }
-  .hero .hero-head p {
+  .hero .hero__head p {
     width: 500px;
     font-size: 25px;
     text-align: center; }
-  .hero .hero-head span {
+  .hero .hero__head span {
     text-align: center;
     font-size: 15px;
     margin-top: 20px; }
-  .hero .hero-head .hero__button {
+  .hero .hero__head .hero_button {
     width: 320px; }
-  .hero .hero_footer h2 {
+  .hero .hero__footer h2 {
     color: #635c73;
     font-family: sans-serif;
     font-size: 38px;
@@ -669,146 +674,146 @@ footer {
     text-align: center;
     margin-bottom: 25px;
     margin-top: 20px; }
-  .hero .hero_footer p {
+  .hero .hero__footer p {
     width: 450px;
     font-size: 17px;
     line-height: 22px;
     margin-top: -5px; }
-  .hero .hero_footer img {
+  .hero .hero__footer img {
     margin-top: 80px;
     width: 320px; }
   .features {
     height: 100%; }
-    .features .features__wrap {
+    .features .features_wrap {
       display: flex;
       flex-direction: column; }
-    .features .features__wrap__block {
+    .features .features__block_wrap {
       display: flex;
       width: 100%; }
-      .features .features__wrap__block h2 {
+      .features .features__block_wrap h2 {
         color: #8d81ac;
         font-family: sans-serif;
         font-size: 40px;
         font-weight: 700;
         line-height: 21px;
         display: block; }
-      .features .features__wrap__block .features__block {
+      .features .features__block_wrap .features__block {
         width: 300px;
         margin-top: 80px; }
-        .features .features__wrap__block .features__block p {
+        .features .features__block_wrap .features__block p {
           width: 200px; }
-        .features .features__wrap__block .features__block img {
+        .features .features__block_wrap .features__block img {
           display: flex;
           width: 60px;
           height: 70px; }
-    .features .features__second__block {
+    .features .features__block_second {
       width: 100%; }
-      .features .features__second__block h2 {
+      .features .features__block_second h2 {
         display: none; }
-  .contacts .contacts__wrap .line {
+  .contacts .contacts_wrap .line {
     width: 500px; }
-  .contacts .contacts__wrap .contacts__user__undertext {
+  .contacts .contacts_wrap .contacts-user__undertext {
     width: 500px; }
-  .contacts .contacts__wrap .contacts__media {
+  .contacts .contacts_wrap .contacts-media {
     display: flex;
     flex-direction: column; }
   .testimonials {
     height: 1500px; }
-    .testimonials .testimonials__wrap h2 {
+    .testimonials .testimonials_wrap h2 {
       color: #ffffff;
       font-family: sans-serif;
       font-size: 40px;
       font-weight: 700;
       line-height: 40px;
       text-align: center; }
-    .testimonials .testimonials__wrap .testimonials__block__wrap {
+    .testimonials .testimonials_wrap .testimonials__block_wrap {
       display: flex;
       flex-direction: column;
       align-items: center; }
-      .testimonials .testimonials__wrap .testimonials__block__wrap .testimonials__block p {
+      .testimonials .testimonials_wrap .testimonials__block_wrap .testimonials__block p {
         width: 350px; }
   .pricing {
     height: 2200px; }
-    .pricing .pricing__wrap h2 {
+    .pricing .pricing_wrap h2 {
       color: #ffffff;
       font-family: sans-serif;
       font-size: 45px;
       font-weight: 700;
       line-height: 40px;
       text-align: center; }
-    .pricing .pricing__wrap .pricing__block__wrap {
+    .pricing .pricing_wrap .pricing-block_wrap {
       display: flex;
       flex-direction: column;
       align-content: center; }
-      .pricing .pricing__wrap .pricing__block__wrap .pricing__block {
+      .pricing .pricing_wrap .pricing-block_wrap .pricing-block {
         margin-bottom: 40px;
         margin-left: 0; }
-    .pricing .pricing__wrap .prcing__paragraph {
+    .pricing .pricing_wrap .prcing__paragraph {
       color: #a291a5;
       font-family: sans-serif;
       font-size: 12px;
       font-weight: 400;
       line-height: 21px;
       width: 500px; }
-  .subscription .subscription__wrap {
+  .subscription .subscription_wrap {
     display: flex;
     flex-direction: column;
     justify-content: center; }
-    .subscription .subscription__wrap h2 {
+    .subscription .subscription_wrap h2 {
       display: none; }
-    .subscription .subscription__wrap h3 {
+    .subscription .subscription_wrap h3 {
       display: block; }
-    .subscription .subscription__wrap .subscription__form {
+    .subscription .subscription_wrap .subscription__form {
       display: flex; }
-      .subscription .subscription__wrap .subscription__form input {
+      .subscription .subscription_wrap .subscription__form input {
         width: 300px; }
-      .subscription .subscription__wrap .subscription__form button {
+      .subscription .subscription_wrap .subscription__form button {
         width: 120px; }
   .links {
     height: 1650px; }
-    .links .links__wrap .links__wrap__block {
+    .links .links_wrap .links-block__wrap {
       display: flex;
       flex-direction: column;
       align-items: center; }
-      .links .links__wrap .links__wrap__block .links__block button {
+      .links .links_wrap .links-block__wrap .links-block button {
         margin-bottom: 20px;
         margin-top: 30px; }
-  footer .footer__wrap .footer__wrap__block {
+  footer .footer_wrap .footer-block_wrap {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between; }
-    footer .footer__wrap .footer__wrap__block .block {
+    footer .footer_wrap .footer-block_wrap .block {
       margin-top: 35px; }
-    footer .footer__wrap .footer__wrap__block .footer__contacts {
+    footer .footer_wrap .footer-block_wrap .footer-block__contacts {
       text-align: center; } }
 
 @media (max-width: 481px) {
   html {
     overflow-x: hidden; }
-  .nav__wrap .button {
+  .header__nav_wrap .button {
     margin-right: 40%; }
   .header__nav {
     display: none; }
   .hamburger-menu {
     display: flex; }
-  .hero .hero-head h1 {
+  .hero .hero__head h1 {
     color: #fff;
     font-family: sans-serif;
     font-size: 60px;
     font-weight: 700;
     line-height: 21px; }
-  .hero .hero-head p {
+  .hero .hero__head p {
     width: 300px;
     font-size: 20px;
     text-align: center; }
-  .hero .hero-head span {
+  .hero .hero__head span {
     text-align: center;
     font-size: 14px;
     margin-top: 20px; }
-  .hero .hero-head .hero__button {
+  .hero .hero__head .hero_button {
     width: 300px; }
-  .hero .hero_footer h2 {
+  .hero .hero__footer h2 {
     color: #635c73;
     font-family: sans-serif;
     font-size: 30px;
@@ -818,22 +823,22 @@ footer {
     text-align: center;
     margin-bottom: 25px;
     margin-top: 20px; }
-  .hero .hero_footer p {
+  .hero .hero__footer p {
     width: 320px;
     font-size: 17px;
     line-height: 22px;
     margin-top: -5px; }
-  .hero .hero_footer img {
+  .hero .hero__footer img {
     margin-top: 80px;
     width: 300px; }
   .features {
     height: 100%; }
-    .features .features__wrap {
+    .features .features_wrap {
       display: flex;
       flex-direction: column; }
-    .features .features__wrap__block {
+    .features .features__block_wrap {
       width: 100%; }
-      .features .features__wrap__block h2 {
+      .features .features__block_wrap h2 {
         color: #8d81ac;
         font-family: sans-serif;
         font-size: 40px;
@@ -841,98 +846,98 @@ footer {
         line-height: 30px;
         display: block;
         text-align: center; }
-      .features .features__wrap__block .features__block {
+      .features .features__block_wrap .features__block {
         width: 300px;
         margin-top: 80px; }
-        .features .features__wrap__block .features__block p {
+        .features .features__block_wrap .features__block p {
           width: 200px; }
-        .features .features__wrap__block .features__block img {
+        .features .features__block_wrap .features__block img {
           display: flex;
           width: 60px;
           height: 70px; }
-    .features .features__second__block {
+    .features .features__block_second {
       width: 100%; }
-      .features .features__second__block h2 {
+      .features .features__block_second h2 {
         display: none; }
-  .contacts .contacts__wrap .line {
+  .contacts .contacts_wrap .line {
     width: 300px; }
-  .contacts .contacts__wrap .contacts__user__undertext {
+  .contacts .contacts_wrap .contacts-user__undertext {
     width: 300px; }
-  .contacts .contacts__wrap .contacts__media {
+  .contacts .contacts_wrap .contacts-media {
     display: flex;
     flex-direction: column; }
   .testimonials {
     height: 1500px; }
-    .testimonials .testimonials__wrap h2 {
+    .testimonials .testimonials_wrap h2 {
       color: #ffffff;
       font-family: sans-serif;
       font-size: 35px;
       font-weight: 700;
       line-height: 40px;
       text-align: center; }
-    .testimonials .testimonials__wrap .testimonials__block__wrap {
+    .testimonials .testimonials_wrap .testimonials__block_wrap {
       display: flex;
       flex-direction: column;
       align-items: center; }
-      .testimonials .testimonials__wrap .testimonials__block__wrap .testimonials__block p {
+      .testimonials .testimonials_wrap .testimonials__block_wrap .testimonials__block p {
         width: 300px; }
   .pricing {
     height: 2300px; }
-    .pricing .pricing__wrap h2 {
+    .pricing .pricing_wrap h2 {
       color: #ffffff;
       font-family: sans-serif;
       font-size: 40px;
       font-weight: 700;
       line-height: 40px;
       text-align: center; }
-    .pricing .pricing__wrap .pricing__block__wrap {
+    .pricing .pricing_wrap .pricing-block_wrap {
       display: flex;
       flex-direction: column;
       align-content: center; }
-      .pricing .pricing__wrap .pricing__block__wrap .pricing__block {
+      .pricing .pricing_wrap .pricing-block_wrap .pricing-block {
         margin-bottom: 40px;
         margin-left: 0; }
-        .pricing .pricing__wrap .pricing__block__wrap .pricing__block:hover {
+        .pricing .pricing_wrap .pricing-block_wrap .pricing-block:hover {
           transform: scale(1.1);
           background: rgba(57, 45, 61, 0.3); }
-    .pricing .pricing__wrap .prcing__paragraph {
+    .pricing .pricing_wrap .prcing__paragraph {
       color: #a291a5;
       font-family: sans-serif;
       font-size: 12px;
       font-weight: 400;
       line-height: 21px;
       width: 300px; }
-  .subscription .subscription__wrap {
+  .subscription .subscription_wrap {
     display: flex;
     flex-direction: column;
     justify-content: center; }
-    .subscription .subscription__wrap h2 {
+    .subscription .subscription_wrap h2 {
       display: none; }
-    .subscription .subscription__wrap h3 {
+    .subscription .subscription_wrap h3 {
       display: block; }
-    .subscription .subscription__wrap .subscription__form {
+    .subscription .subscription_wrap .subscription__form {
       display: flex; }
-      .subscription .subscription__wrap .subscription__form input {
+      .subscription .subscription_wrap .subscription__form input {
         width: 200px; }
-      .subscription .subscription__wrap .subscription__form button {
+      .subscription .subscription_wrap .subscription__form button {
         width: 100px; }
   .links {
     height: 1650px; }
-    .links .links__wrap .links__wrap__block {
+    .links .links_wrap .links-block__wrap {
       display: flex;
       flex-direction: column;
       align-items: center; }
-      .links .links__wrap .links__wrap__block .links__block button {
+      .links .links_wrap .links-block__wrap .links-block button {
         margin-bottom: 20px;
         margin-top: 30px; }
-  footer .footer__wrap .footer__wrap__block {
+  footer .footer_wrap .footer-block_wrap {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between; }
-    footer .footer__wrap .footer__wrap__block .block {
+    footer .footer_wrap .footer-block_wrap .block {
       margin-top: 35px; }
-    footer .footer__wrap .footer__wrap__block .footer__contacts {
+    footer .footer_wrap .footer-block_wrap .footer-block__contacts {
       text-align: center; } }
 
 /*# sourceMappingURL=main.css.map */

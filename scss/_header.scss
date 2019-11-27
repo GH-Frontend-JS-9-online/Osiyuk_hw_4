@@ -5,7 +5,7 @@ header{
   .header_wrap{
     @include flex-center(row,space-between)
      }
-    .nav__wrap{
+    .header__nav_wrap{
       display: flex;
       align-items:  center;
     }

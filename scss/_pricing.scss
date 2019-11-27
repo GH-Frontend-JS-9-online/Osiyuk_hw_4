@@ -2,16 +2,16 @@
   @include background-prop()
   background-image: url(../img/Layer_2.png);
   @include wrap-center()
-  .pricing__wrap{
+  .pricing_wrap{
    @include wrap-prop()
    h2{
       @include titels(48px,700,21px, #ffffff)
    }
-   .pricing__block__wrap{
+   .pricing-block_wrap{
      display: flex;
      flex-direction: row;
      justify-content: center;
-     .pricing__block{
+     .pricing-block{
        margin-left: 30px;
        width: 257px;
        height: 457px;
@@ -21,7 +21,7 @@
          background: rgba(57, 45, 61, 0.3);
        }
 
-       .pricing__block__head{
+       .pricing-block__head{
          background-color: rgba(255, 255, 255, 0.06);
          height: 97px;
          display: flex;
@@ -32,7 +32,7 @@
            text-transform: uppercase;
          }
        }
-       .pricing__block__main{
+       .pricing-block__main{
          display: flex;
          justify-content: center;
          align-items: center;
@@ -47,7 +47,11 @@
            text-transform: uppercase;
          }
          p{
-           @include titels(16px,400,10,#fff)
+           @include titels(16px,400,1,#fff)
+           margin-top: 70px;
+           text-align: center;
+           width: 200px;
+           height: 20px;
          }
          button {
            width: 160px;
@@ -61,6 +65,7 @@
            color: #fff;
            text-transform: uppercase;
            border:none;
+           margin-top: 60px;
          }
        }
      }

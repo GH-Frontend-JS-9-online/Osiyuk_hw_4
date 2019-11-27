@@ -1,21 +1,21 @@
 footer{
   height: 329px;
   @include wrap-center()
-  .footer__wrap{
-    .footer__wrap__block{
+  .footer_wrap{
+    .footer-block_wrap{
       display: flex;
       align-items: flex-start;
       justify-content: space-between;
       margin-top: 10%;
-      .footer__logo{
+      .footer-block__logo{
         p{
         width: 253px;
         }
       }
-      .footer__contacts-number{
+      .footer-block_number{
         padding-bottom: 20px;
       }
-      .footer__info{
+      .footer-block__info{
         p{
           width: 300px;
         }
