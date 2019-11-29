@@ -2,6 +2,7 @@
   @include background-prop()
   background-image: url(../img/Layer_1.png);
   @include wrap-center()
+  height: 900px;
   .testimonials_wrap{
     display: flex;
     flex-direction: column;
@@ -9,7 +10,7 @@
     justify-content: space-around;
      h2{
        @include titels(48px,700,21px, #ffffff)
-       margin-top: 80px;
+       margin-top: 8%;
      }
      .testimonials__block_wrap{
        display: flex;

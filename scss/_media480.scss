@@ -90,7 +90,15 @@
       .line{
       width:  300px;
       }
-      .contacts-user__undertext{
+      .contacts-block{
+        .hours{
+          margin-left: 30%;
+        }
+      }
+      .contacts-block__user{
+        margin-left: 0%;
+      }
+      .contacts-block__undertext{
         width: 300px;
       }
       .contacts-media{
